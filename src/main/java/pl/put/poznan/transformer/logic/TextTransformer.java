@@ -13,8 +13,8 @@ public class TextTransformer {
 
     public String transform(String text){
         // of course normally it would to something based on transforms
-
-//        String nana = StringTransformations.changeCase("", "");
+// example of use
+//        String stringTransformations = StringTransformations.changeCase("", "");
         return text.toUpperCase();
     }
 }
